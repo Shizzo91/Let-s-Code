@@ -1,0 +1,31 @@
+footer {
+  background-color: #313131;
+  padding: 1em;
+}
+
+footer>p {
+  margin: auto;
+  width: 80%;
+  text-align: center;
+  color: white;
+  border-top: 3px solid white;
+  padding-top: 0.5em;
+}
+
+.link-container {
+  text-align: center;
+  padding-bottom: 1em;
+  width: 100%;
+}
+
+.link-container>a {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0.5em 2em;
+  border-left: 1px solid white;
+  color: white;
+}
+
+.link-container>a:first-child {
+  border-left: none;
+}
